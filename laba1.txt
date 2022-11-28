@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+    float x = 1.549;
+    float y = 7.317;
+    float a1;
+    a1 = 3.14 *(pow(x,2));
+    float a2;
+    a2 = 7 * (pow(y,-2));
+    float a3;
+    a3 = x*(pow(y,3));
+    float a4;
+    a4 = 7 * (pow(y,0.5));
+    float a5;
+    a5 = log(x+(7 * (sqrt(y))));
+    float result = (double)a1-a2+a3+a4+a5;
+    printf("%f",result);
+    }
